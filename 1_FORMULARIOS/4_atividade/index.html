@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h2>Formulário</h2>
+
+    <form action="">
+
+            <fieldset>
+                <legend>Cadastro</legend>
+
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text">
+            </div>
+            <div>
+                <label id="data" for="data">Data de nascimento:</label>
+                <input id="nome" type="date">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input id="email" type="email">
+            </div>
+            <div>
+                <label for="cpf">CPF:</label>
+                <input id="cpf" type="number">
+            </div>
+            <div>
+                <select name="motivo" id="motivo">
+                    <option selected disabled value="">Selecione...</option>
+                    <option value="estudante">estudante</option>
+                    <option value="professor">professor</option>
+                    <option value="pessoal">pessoal</option>
+                    <option value="outro">outro</option>
+                </select>
+            </div>
+            <div>
+                <label for="opcao1">Plano standard</label>
+                <input type="radio" name="plano" id="opcao1">
+            </div>
+            <div>
+                <label for="opcao2">Plano Plus</label>
+                <input type="radio" name="plano" id="opcao2">
+            </div>
+            <div>
+                <label for="opcao3">Plano Platinum</label>
+                <input type="radio" name="plano" id="opcao3">
+            </div>
+            <div>
+                <label for="opcao4">Plano Black</label>
+                <input type="radio" name="plano" id="">
+            </div>
+
+            <button>Enviar</button>
+        </fieldset>
+    </form>
+</body>
+</html>

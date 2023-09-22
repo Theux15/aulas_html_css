@@ -17,3 +17,20 @@ h2 {
 .fundo-verde {
     background-color: #0f0;
 }
+
+.fonte-grande {
+    font-size: 50px;
+}
+
+.cor-amarela {
+    color: yellow;
+}
+
+#titulo-principal {
+    background: black;
+    color: white;
+}
+
+#titulo-id {
+    color: purple;
+}
